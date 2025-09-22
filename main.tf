@@ -19,7 +19,7 @@ data "aws_ssm_parameter" "amazon_linux_2023_ami" {
 
 resource "aws_instance" "amazon_linux_2023" {
   ami           = data.aws_ssm_parameter.amazon_linux_2023_ami.value
-  instance_type = "m5.large"
+  instance_type = "t3.micro"
   subnet_id     = aws_subnet.main.id
 }
 
