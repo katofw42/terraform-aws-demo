@@ -23,4 +23,4 @@ resource "aws_instance" "amazon_linux_2023" {
   subnet_id     = aws_subnet.main.id
 }
 
-# test
+# test2
