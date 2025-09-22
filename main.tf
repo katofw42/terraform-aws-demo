@@ -22,3 +22,5 @@ resource "aws_instance" "amazon_linux_2023" {
   instance_type = "t3.small"
   subnet_id     = aws_subnet.main.id
 }
+
+# test
