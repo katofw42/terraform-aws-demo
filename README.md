@@ -8,6 +8,6 @@ git restore --source=full-stack .
 ```
 
 ```console
-git tag
+$ git tag
 ```
 
