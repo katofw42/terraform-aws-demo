@@ -6,3 +6,8 @@ git restore --source=simple-ec2 .
 git restore --source=full-stack .
 
 ```
+
+```console
+git tag
+```
+
